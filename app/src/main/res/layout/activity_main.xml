@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text"
+            android:text="THE CAT IN THE HAT APPS"
+            android:textColor="@color/udacious"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@android:color/background_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/button_spacing"
+            android:layout_alignParentTop="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:text="The Cat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/button_spacing"
+                android:layout_margin="@dimen/button_spacing"
+                android:background="@color/udacious"
+                android:onClick="toast"/>
+
+            <Button
+                android:text="Thing 1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/button_spacing"
+                android:layout_margin="@dimen/button_spacing"
+                android:background="@color/udacious"
+                android:onClick="toast"/>
+
+            <Button
+                android:text="Thing 2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/button_spacing"
+                android:layout_margin="@dimen/button_spacing"
+                android:background="@color/udacious"
+                android:onClick="toast"/>
+
+            <Button
+                android:text="Thingamajigger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/button_spacing"
+                android:layout_margin="@dimen/button_spacing"
+                android:background="@color/udacious"
+                android:onClick="toast"
+                android:gravity="center"/>
+
+            <Button
+                android:text="Sally"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/button_spacing"
+                android:layout_margin="@dimen/button_spacing"
+                android:background="@color/udacious"
+                android:onClick="toast"/>
+
+            <Button
+                android:text="Nick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/button_spacing"
+                android:layout_margin="@dimen/button_spacing"
+                android:background="@color/udacious"
+                android:onClick="toast"/>
+
+            <Button
+                android:text="Dr. Seuss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/button_spacing"
+                android:layout_margin="@dimen/button_spacing"
+                android:background="@color/udacious"
+                android:onClick="toast"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
